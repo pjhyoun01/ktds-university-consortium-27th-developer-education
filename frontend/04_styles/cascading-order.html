@@ -1,32 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Inline Style 실습</title>
-    <link rel="stylesheet" text="text/css" href="external.css">
-    <style text="text/css">
-        div {
-            background-color: #f0f;
-            color: #ff0;
-        }
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>External Style 실습</title>
+    <!-- External Style : 우선순위 => 가장 낮음(3) -->
+    <link rel="stylesheet" type="text/css" href="./external.css" />
+
+    <!-- Internal Style : 우선순위 => 두 번째로 높음(2) -->
+    <style type="text/css">
+      #header {
+        background-color: #ff00ff;
+        color: #ffff00;
+      }
     </style>
-</head>
-<body>
-    <div id="header" style="background-color: #000000; color: #ffffff;">
-        Header 영역
-        <p class="header--logo">header--logo</p>
+  </head>
+  <body>
+    <div id="header" style="background-color: #000000; color: #ffffff">
+      Header 영역
+      <p class="header--logo">로고 영역입니다.</p>
     </div>
+
     <div id="main-container">
-        Main-container 영역
-        <p class="main-container--content">main-container--content</p>
+      Main-Container 영역
+      <p class="main-container--content">Content 영역</p>
     </div>
+
     <div id="footer">
-        footer 영역
-        <ul class="footer-links">
-            <li class="footer-links--link">footer-link1</li>
-            <li class="footer-links--link">footer-link2</li>
-            <li class="footer-links--link">footer-link3</li>
-        </ul>
+      Footer 영역
+      <ul class="footer-links">
+        <li class="footer-links--link">Item 1</li>
+        <li class="footer-links--link">Item 2</li>
+        <li class="footer-links--link">Item 3</li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>

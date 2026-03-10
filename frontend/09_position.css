@@ -1,0 +1,75 @@
+img {
+  vertical-align: bottom;
+}
+
+.background {
+  position: relative;
+}
+
+.subject {
+  position: absolute;
+  /*
+    Offset 기준이 두 가지.
+    1. position이 할당되지 않은 부모 태그 내부 ==> View port
+    2. position이 relative로 할당된 부모 태그 내부  ==> 부모태그
+  */
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+
+  background-color: #0005;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* .box {
+  position: absolute;
+
+  width: 300px;
+  height: 200px;
+
+  bottom: 0px;
+  right: 0px;
+
+  background-color: #ccc;
+} */
+
+div {
+  border: 1px solid #f00;
+  padding: 16px;
+}
+
+.absolute {
+  background-color: #ff0;
+
+  position: absolute;
+  /* OFFSET 기준: viewport */
+  right: 0px;
+  bottom: 0px;
+}
+
+.relative {
+  background-color: #0ff;
+  position: relative;
+  /* OFFSET 기준: 스타일이 적용된 박스. */
+  top: 50px;
+  left: 50px;
+  /* bottom: 50px;
+  right: 50px; */
+}
+
+.fixed {
+  position: fixed;
+  /* OFFSET 기준: viewport */
+  right: 20px;
+  bottom: 50px;
+}
+
+.sticky {
+  background-color: #f0f;
+
+  position: sticky;
+  /* OFFSET 기준: viewport */
+  top: 0px;
+}

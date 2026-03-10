@@ -1,0 +1,61 @@
+h1 {
+  font-size: 80px;
+  /* margin: 20px 0 20px 0; */
+  margin: 20px 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.summary {
+  font-style: italic;
+  text-align: center;
+}
+
+.thin {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  /* background-color: #333; */
+  background: linear-gradient(0.25turn, #fff, #333, #fff);
+  margin: 16px 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+.paragraph {
+  /*박스의 아래쪽에 마진을 할당.*/
+  /* margin: 0 0 10px 0; */
+  margin-bottom: 10px;
+}
+
+.wrap-box {
+  display: inline-block;
+  width: 470px;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.justify-align {
+  text-align: justify;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
