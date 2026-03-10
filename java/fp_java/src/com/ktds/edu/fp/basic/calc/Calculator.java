@@ -1,0 +1,13 @@
+package com.ktds.edu.fp.basic.calc;
+
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+public class Calculator {
+	public int calc(int num1, int num2, Compute compute) {
+		return compute.compute(num1, num2);
+	}
+	public int calc2(int num1, int num2, BiFunction<Integer, Integer, Integer> biFunction) {
+		return biFunction.apply(num1, num2);
+	}
+}

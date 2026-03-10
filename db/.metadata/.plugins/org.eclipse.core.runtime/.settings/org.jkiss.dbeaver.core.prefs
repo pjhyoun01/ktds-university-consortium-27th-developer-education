@@ -1,0 +1,11 @@
+SQLEditor.ContentAssistant.auto.activation.enable=false
+SQLEditor.resultSet.orientation=VERTICAL
+dialog.default.folder=${workspace}\\.metadata
+driver.selector.orderBy=score
+eclipse.preferences.version=1
+org.jkiss.dbeaver.core.confirm.exit=always
+resultset.presentation.active=spreadsheet
+sample.database.canceled=true
+tipOfTheDayInitializer.notFirstRun=true
+ui.auto.update.check.time=1773015333561
+ui.show.tip.of.the.day.on.startup=false

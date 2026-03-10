@@ -1,0 +1,25 @@
+.full {
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.179);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.half {
+    width: 50%;
+    background-color: rgba(0, 255, 0, 0.244);
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.quarter {
+    width: 25px;
+    background-color: rgba(0, 0, 255, 0.308);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+}

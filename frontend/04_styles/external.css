@@ -1,0 +1,31 @@
+/* ID Selecters */
+#header {
+    background-color: #ccc;
+    border: 2px solid #00ff00; 
+    font-size: 15px;
+}
+
+#main-container {
+    border: 2px dashed #ff0000;
+    color: #0000ff;
+}
+
+#footer {
+    background-color: #00000055;
+    
+}
+
+#header--logo {
+    background-color: #ff3355;
+    border-radius: 15px;
+}
+
+#footer-links--link {
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: 600;
+}
+
+#main-container--content{
+    background-color: #00ffff;
+}

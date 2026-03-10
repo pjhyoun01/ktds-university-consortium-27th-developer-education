@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/OracleTableColumn">
+		<column name="Column Name" visible="true" order="0" width="217"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="100"/>
+		<column name="Type Mod" visible="true" order="3" width="38"/>
+		<column name="Not Null" visible="true" order="4" width="100"/>
+		<column name="Default" visible="true" order="5" width="100"/>
+		<column name="Comment" visible="true" order="6" width="382"/>
+	</item>
+	<item id="NodeList/OracleTableForeignKeyColumn">
+		<column name="Name" visible="true" order="0" width="118"/>
+		<column name="Column" visible="true" order="1" width="126"/>
+		<column name="Reference Column" visible="true" order="2" width="113"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="184"/>
+	</item>
+	<item id="Suggestion/NodeList/OracleTableColumn">
+		<column name="Column Name" visible="true" order="0" width="103"/>
+		<column name="#" visible="true" order="1" width="27"/>
+		<column name="Type" visible="true" order="2" width="112"/>
+		<column name="Type Mod" visible="false" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="60"/>
+		<column name="Default" visible="true" order="4" width="53"/>
+		<column name="Comment" visible="true" order="5" width="68"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="242"/>
+		<column name="Time" visible="true" order="1" width="163"/>
+		<column name="Info" visible="true" order="2" width="48"/>
+		<column name="Folder" visible="true" order="3" width="60"/>
+	</item>
+</items>

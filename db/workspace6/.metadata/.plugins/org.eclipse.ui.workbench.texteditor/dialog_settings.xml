@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="PU_CLERK"/>
+		<list key="replacehistory">
+			<item value="BOARD"/>
+			<item value="0227"/>
+			<item value="TMDB"/>
+			<item value="월급"/>
+			<item value="test"/>
+			<item value="hr"/>
+		</list>
+		<list key="findhistory">
+			<item value="START WITH"/>
+			<item value="TMDB"/>
+			<item value="0226"/>
+			<item value="test"/>
+			<item value="LPAD"/>
+			<item value="GROUP"/>
+			<item value="113번"/>
+			<item value="100번 사원"/>
+			<item value="ROW"/>
+			<item value="WHERE"/>
+			<item value="TO_DATE"/>
+			<item value="LEVEL"/>
+			<item value="CONNECT"/>
+			<item value="CONNECT BY PRIOR"/>
+			<item value="PU_CLERK"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="387"/>
+		<item key="DIALOG_Y_ORIGIN" value="259"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>
