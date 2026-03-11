@@ -1,0 +1,49 @@
+body {
+    background-color: #18191b;
+    font-family: 'JetBrains Mono';
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header {
+    width: 96%;
+    height: 42;
+    padding: 12px 2%;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-nav * {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img-white {
+    filter: invert(100%);
+}
+
+.logo-first, .logo-last {
+    /* 하늘색 코드.. */
+    filter: brightness(0) saturate(100%) invert(75%) sepia(11%) saturate(1938%) hue-rotate(185deg) brightness(101%) contrast(99%);
+}
+
+.img-size1 {
+    height: 24px;
+}
+
+.img-size2 {
+    height: 20px;
+}
+
+.img-size3 {
+    height: 17.5px;
+}
+
+

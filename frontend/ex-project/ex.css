@@ -16,3 +16,11 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio]:checked + label {
+  color: red;
+}
