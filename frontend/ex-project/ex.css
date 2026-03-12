@@ -1,12 +1,10 @@
-.dropdown{
-  /* position : relative; */
+/* .dropdown{
   display : inline-block;
 }
 
 .dropdown-content{
   display : none;
-  /* position : absolute; */
-  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  z-index : 1; 
 }
 
 .dropdown-content a{
@@ -23,4 +21,28 @@ input[type=radio] {
 
 input[type=radio]:checked + label {
   color: red;
+} */
+* {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+.a {
+  width: 10%;
+  height: 600px;
+  position: fixed;
+  background-color: rebeccapurple;
+  overflow-y: auto;
+}
+.b {
+  width: 10%;
+  
+}
+.c {
+  width: 10%;
+  height: 800px;
+  background-color: blue;
 }

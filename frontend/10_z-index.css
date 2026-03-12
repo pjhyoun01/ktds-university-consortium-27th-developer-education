@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.bg-color-red {
+    background-color: red;
+}
+.bg-color-green {
+    background-color: green;
+}
+.absolue {
+    position: absolute;
+}
+
+.top {
+    top: 20px;
+}
+
+.left {
+    left: 20px;
+}
