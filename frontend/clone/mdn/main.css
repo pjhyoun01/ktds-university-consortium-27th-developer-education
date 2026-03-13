@@ -16,8 +16,6 @@ body {
     background-color: #18191b;
 }
 
-
-
 a {
     text-decoration: none;
     color: #fff;
@@ -206,6 +204,7 @@ a {
     width: 16%;
     
 }
+
 .side-nav-filter {
     border: 1px solid #acacac7e;
     border-radius: 20px;
@@ -213,6 +212,7 @@ a {
     align-items: center;
     width: 80%;
 }
+
 .gradation {
     height: 30px;
     width: 16%;
@@ -222,7 +222,6 @@ a {
 .side-nav-filter > img {
     padding: 5px 10px;
 }
-
 
 .filter {
     width: 50%;
@@ -271,16 +270,9 @@ a {
     font-weight: 600;
 }
 
-
 .lightblue-hover:hover {
     color: #a4cefe;
 }
-
-/* .list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
 
 .depth2 {
     margin-left: 30px;
@@ -364,8 +356,6 @@ a {
     text-decoration: underline;
     cursor: pointer;
 }
-
-
 
 .main-title{
     font-size: 2.5rem;
@@ -451,5 +441,3 @@ a {
 .select-box-blue:hover{
     color: #fff;
 }
-
-
