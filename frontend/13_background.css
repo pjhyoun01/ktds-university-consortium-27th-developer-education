@@ -1,0 +1,19 @@
+.input-form {
+  padding: 10px;
+}
+
+.input-form > div > input {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.background {
+  width: 1000px;
+  height: 800px;
+  border: 1px solid #000;
+  background-image: url("./naver_sprite.png");
+  background-repeat: no-repeat;
+  background-size: 786px 780px;
+  background-position: -100px -100px;
+  /* h: 880px, w: 886px */
+}

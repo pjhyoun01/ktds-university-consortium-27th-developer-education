@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.inline-box {
+  display: inline-block;
+  padding: 10px;
+  background-color: #f3a8a8;
+  vertical-align: top;
+}
+
+.overflow {
+  width: 300px;
+  height: 300px;
+  overflow: auto;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 200px;
+  white-space: nowrap;
+}
+
+.list > li {
+  padding: 10px;
+  background-color: #ffdede;
+  /* overflow: hidden; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'sans-serif';
 }
 
 body {
@@ -7,12 +8,12 @@ body {
 }
 
 .fix {
-    position: fixed;   /* 화면에 고정 */
-    top: 0;            /* 최상단에 밀착 */
-    left: 0;           /* 좌측 끝에 밀착 */
-    width: 100%;       /* 가로 너비를 꽉 채움 */
-    z-index: 1000;     /* 다른 요소들보다 위에 보이도록 설정 */
-    background-color: #18191b; /* 배경색이 없으면 본문 글씨와 겹쳐 보일 수 있으므로 추가 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #18191b;
 }
 
 
@@ -23,7 +24,6 @@ a {
 }
 
 #header {
-    font-family: 'JetBrains Mono';
     height: 10%;
     margin: 8px 10%;
     font-weight: 500;
@@ -302,7 +302,6 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    background-color: red;
 }
 
 #main-content > * {
@@ -356,10 +355,6 @@ a {
     background-color: #212426;
 }
 
-.button-font {
-    font-family: 'JetBrains Mono';
-}
-
 .button-style {
     border-radius: 0.3rem;
 }
@@ -367,4 +362,94 @@ a {
 .span-blue-underline{
     color: #90b4de;
     text-decoration: underline;
+    cursor: pointer;
 }
+
+
+
+.main-title{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.main-sub-title {
+    font-size: 2rem;
+    margin: 1.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.main-sub-title:hover{
+    text-decoration: underline;
+}
+
+.main-sub-title:hover::before {
+    content: "#";
+    position: absolute;
+    left: -1.5rem;
+    top: 0.3rem;
+    font-size: 1.6rem;
+    color: #d7d7d7;
+}
+
+.dis-underline:hover{
+    text-decoration: none;
+}
+
+.main-summary{
+    margin: 1.5rem 0;
+}
+
+.div-table {
+    display: grid;
+    grid-template-columns: 15% 85%; /* 컬럼 비율 설정 */
+    border-top: 1px solid #acacac7e;
+    border-left: 1px solid #acacac7e;
+}
+
+.div-table > div {
+    border-right: 1px solid #acacac7e;
+    border-bottom: 1px solid #acacac7e;
+    padding: 1rem;
+}
+
+#now-nav{
+    position: relative;
+}
+
+.now-nav-top{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    position: fixed;
+}
+
+.now-nav-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    margin-top: 4rem;
+}
+
+.now-nav-title > * {
+    border-left: 0.15rem solid #777;
+    padding: 0.27rem 0.7rem;
+}
+
+
+.now-nav-title > *:hover{
+    text-decoration: underline;
+    color: #a4cefe;
+}
+
+.select-box-blue{
+    background-color: #072446;
+    padding: 0.27rem 0.7rem;
+    border-left: 2px solid #0a5dbd;
+}
+
+.select-box-blue:hover{
+    color: #fff;
+}
+
+

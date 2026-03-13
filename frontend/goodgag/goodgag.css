@@ -22,8 +22,8 @@ body {
 
 .header-div {
     border: 1px solid #c6a500;
-    border-radius: 5px;
-    padding: 2px 6px;
+    border-radius: 3px;
+    padding: 0 4px;
     color: #fff;
 }
 
@@ -35,6 +35,10 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 10px 0;
+}
+
+.issue{
+    border-bottom: 2px solid #f00;
 }
 
 .container-main {
@@ -63,4 +67,22 @@ body {
 
 .grey {
     color: #888787;
+}
+
+.logo-img{
+    background-image: url(./common.1px.webp);
+    background-position: 0px 0px;
+    width: 82px;
+    height: 35px;
+}
+
+.shopping-logo{
+    filter: invert(100%);
+}
+
+.write-logo{
+    background-image: url(./common.1px.webp);
+    background-position: -41px -38px;
+    width: 33px;
+    height: 29px;
 }
