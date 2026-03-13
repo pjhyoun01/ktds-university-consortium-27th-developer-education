@@ -76,7 +76,7 @@ a {
     filter: invert(70%);
 }
 
-.logo-first, .logo-last {
+.img-lightblue {
     /* 하늘색 코드.. */
     filter: brightness(0) saturate(100%) invert(75%) sepia(11%) saturate(1938%) hue-rotate(185deg) brightness(101%) contrast(99%);
 }
@@ -309,6 +309,8 @@ a {
     width: 100%;
     background-color: #072446;
     border-left: 2px solid #a4cefe;
+    margin-top: 0.625rem;
+    padding: 0.625rem;
 }
 
 .box1 {
@@ -324,6 +326,7 @@ a {
 
 .box1 > *:first-child {
     margin-left: 0.5rem;
+    margin-top: 0.625rem;
 }
 
 .box2 {
@@ -333,18 +336,22 @@ a {
 }
 
 .box2 > * {
-    padding: 5px 10px;
+    padding: 6px 10px;
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 8px;
+    cursor: pointer;
 }
 
 .box2 > *:first-child {
     background-color: #fff;
     color: #18191b;
 }
+.box2 > *:first-child:hover {
+    background-color: #ffffffdc;
+}
 
 .box2 > *:last-child:hover {
-    background-color: #212426;
+    background-color: #2d3034;
 }
 
 .button-style {
@@ -403,6 +410,15 @@ a {
     padding: 1rem;
 }
 
+.div-table > div:nth-child(4n + 3),
+.div-table > div:nth-child(4n + 4) {
+    background-color: #212426;
+}
+
+.div-table > div:nth-child(2n + 3){
+    top: 40px;
+}
+
 #now-nav{
     position: relative;
 }
@@ -440,4 +456,10 @@ a {
 
 .select-box-blue:hover{
     color: #fff;
+}
+
+.tag-style {
+    background-color: #2d3034;
+    border-radius: 0.3125rem;
+    padding: 1px 5px;
 }

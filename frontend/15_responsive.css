@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #333;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 87.5rem;
+    min-width: 56.25rem;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.wrapper > .aside,
+.wrapper > .content,
+.wrapper > .help {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+.wrapper > .aside,
+.wrapper > .help {
+    width: 12%;
+    background-color: red;
+}
+
+.wrapper > .content {
+    width: 76%;
+}
+
+.v-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.v-list > li {
+    padding: 0.625rem;
+}
+
+.box {
+    width: 6.25rem;
+    height: 6.25rem;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.ad {
+    height: 18.75rem;
+    background-color: hotpink;
+    margin: 0.625rem;
+}
