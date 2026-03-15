@@ -1,0 +1,66 @@
+/* head 영역 */
+/* head nav 영역 */
+.head__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+}
+
+.nav__main > * {
+  display: flex;
+  align-items: center;
+}
+
+/* head__subnav 영역 */
+.head__subnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head__subnav * {
+  display: flex;
+  align-items: center;
+}
+
+/* body 영역 */
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* body sidenav 영역 */
+.body__sidenav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav__filtter {
+  display: flex;
+  align-items: center;
+}
+
+.sidenav__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav__main > * {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+/* body main 영역 */
+
+/* body aside 영역 */
+.aside__list {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+}

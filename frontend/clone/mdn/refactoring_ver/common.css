@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #18191b;
+  font: 1em sans-serif;
+  width: 100%;
+}
+
+.img--size1 {
+  height: 1.09375rem;
+}
+
+.img--size2 {
+  height: 1.25rem;
+}
+
+.img--size3 {
+  height: 1.5rem;
+}
+
+.img--size4 {
+  height: 0.625rem;
+}
+
+.img--white {
+  filter: invert(100%);
+}
+
+.img--lightgrey {
+  filter: invert(70%);
+}
+
+.img--lightblue {
+  /* 하늘색 코드.. */
+  filter: brightness(0) saturate(100%) invert(75%) sepia(11%) saturate(1938%)
+    hue-rotate(185deg) brightness(101%) contrast(99%);
+}
