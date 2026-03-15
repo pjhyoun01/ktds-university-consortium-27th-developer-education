@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  font-family: "sans-serif";
+}
+
+body {
+  background-color: #18191b;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.blue-hover:hover {
+  background-color: #072446;
+}
+
+.orange-hover:hover {
+  background-color: #4a280f;
+}
+
+.purple-hover:hover {
+  background-color: #260e43;
+}
+
+.green-hover:hover {
+  background-color: #0c311c;
+}
+
+.img-white {
+  filter: invert(100%);
+}
+
+.img-lightgrey {
+  filter: invert(70%);
+}
+
+.img-lightblue {
+  /* 하늘색 코드.. */
+  filter: brightness(0) saturate(100%) invert(75%) sepia(11%) saturate(1938%)
+    hue-rotate(185deg) brightness(101%) contrast(99%);
+}
+
+.img-size1 {
+  height: 24px;
+}
+
+.img-size2 {
+  height: 20px;
+}
+
+.img-size3 {
+  height: 17.5px;
+}
+
+.sub-nav-left a:hover {
+  text-decoration: underline;
+}
+
+.sub-nav-right a:hover {
+  background-color: #2d3034;
+}
+
+.box2 > *:last-child:hover {
+  background-color: #2d3034;
+}
+
+.search-img:hover {
+  background-color: #2d3034;
+}
+
+.box2 > *:first-child:hover {
+  background-color: #ffffffdc;
+}
+
+.grey-hover:hover {
+  background-color: #212426;
+}
+
+/* .underline {
+  text-decoration: underline;
+} */
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.main-sub-title:hover {
+  text-decoration: underline;
+}
+
+.dis-underline:hover {
+  text-decoration: none;
+}
+
+.font-bold {
+  font-weight: 600;
+}
