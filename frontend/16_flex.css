@@ -1,15 +1,33 @@
-.flex {
-    display: flex;
-}
-
 .no-flex {
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .no-flex > * {
-    font-size: 1rem;
-    display: inline-block;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.flex {
+  height: 200px;
+
+  display: flex;
+  /*수평 배치*/
+  flex-direction: row;
+  /*넘쳐 흐르는 아이템들 줄바꿈 처리하기*/
+  flex-wrap: wrap;
+  /*메인축 정렬*/
+  /* justify-content: space-evenly; */
+
+  /*교차축 정렬*/
+  /* align-items: stretch; */
+
+  /*줄넘김 정렬*/
+  /* align-content: stretch; */
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

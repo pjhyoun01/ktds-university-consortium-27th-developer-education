@@ -1,16 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./16_flex.css" />
-    <link rel="stylesheet" href="./16_flex_item.css" />
+    <title>Flex Item</title>
+    <link rel="stylesheet" type="text/css" href="./16_flex.css" />
+    <link rel="stylesheet" type="text/css" href="./16_flex_item.css" />
   </head>
   <body>
     <ul class="flex">
-      <li>a</li>
-      <li>b</li>
-      <li>c</li>
+      <li style="flex-grow: 1; flex-shrink: 0">A</li>
+      <li style="flex-grow: 2">B</li>
+      <li style="flex-grow: 1; flex-shrink: 0">C</li>
+      <li style="flex-grow: 1; flex-shrink: 0">D</li>
+    </ul>
+
+    <ul class="flex vertical">
+      <li>A</li>
+      <li>B</li>
+      <li>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+        <p>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+      </li>
+      <li>D</li>
     </ul>
   </body>
 </html>

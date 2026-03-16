@@ -44,7 +44,7 @@ body {
   padding: 1.875rem;
   border-radius: 0.9375rem;
   height: 12.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.625rem;
   color: #333;
 }
 
@@ -58,24 +58,30 @@ body {
 }
 
 .tabs {
+  padding-bottom: 0.625rem;
+  color: #666;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 0.0625rem solid #eee;
-  padding-bottom: 1.25rem;
-  color: #666;
+}
+
+.tabs__menu {
+  display: flex;
+  justify-content: center;
+  width: 20%;
 }
 
 .select--green {
   background-color: #11d70d;
-  padding: 0.625rem 1.875rem;
+  padding: 0.3125rem 0;
   color: #fff;
   border-radius: 1.5625rem;
 }
 
 .select--purple {
   background-color: #540ea3;
-  padding: 0.625rem 2.5rem;
+  padding: 0.3125rem 0;
   color: #fff;
   border-radius: 1.5625rem;
 }
@@ -116,11 +122,11 @@ body {
   color: #666;
 }
 
-.font--0.75rem {
+.font--12px {
   font-size: 0.75rem;
 }
 
-.font--1rem {
+.font--16px {
   font-size: 1rem;
 }
 
@@ -147,11 +153,8 @@ body {
   display: inline-block;
   width: 1.25rem;
   height: 1.25rem;
-  background-image: url(./img/sprite__homemain.svg); /* 이미지 경로 */
+  background-image: url(./img/sprite__homemain.svg);
   background-repeat: no-repeat;
-
-  /* 핵심: 아이콘의 위치만큼 좌표를 이동시킵니다. */
-  /* 아래 좌표값은 예시이며, 실제 위치에 맞춰 조정이 필요합니다. */
   background-position: 0rem -2.625rem;
   margin-left: 0.3125rem;
 }
