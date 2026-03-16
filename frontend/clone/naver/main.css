@@ -1,0 +1,21 @@
+.header--hambuger {
+  background-image: url(./img/naver_sprite.png);
+  background-size: 460px 457px;
+  background-position: 0px -318px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.containor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containor__left {
+  width: 51.875rem;
+}
+
+.containor__right {
+  width: 26.25rem;
+}
