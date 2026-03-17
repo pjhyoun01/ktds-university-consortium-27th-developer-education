@@ -148,7 +148,9 @@
   background-position: -164px -260px;
 }
 .quicknav--zzz {
-  background-position: -398px -109px;
+  /* background-position: -398px -109px; */
+  background-position: -300px -109px;
+  background-size: 100px;
 }
 
 /* containor 영역 */
