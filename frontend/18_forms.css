@@ -1,0 +1,48 @@
+/* input[type="text"] {
+  width: 100%;
+}
+
+input[type="text"][maxlength] {
+  background-color: aqua;
+}
+
+input[type="text"][maxlength="20"] {
+  padding: 10rem;
+}
+
+input[type="number"] {
+  padding: 0.625rem;
+  border: 1px solid #666;
+  border-radius: 0.5rem;
+}
+
+input:focus {
+} */
+.grid {
+  display: grid;
+  grid-template-columns: minmax(6.25rem, auto) 1fr;
+  row-gap: 0.625rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 0.4rem 0.625rem;
+  outline: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] label {
+  display: inline-block;
+  padding: 20px 0;
+  border: 1px solid pink;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+select {
+}

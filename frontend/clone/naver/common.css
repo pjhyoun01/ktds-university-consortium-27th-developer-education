@@ -9,7 +9,22 @@ body {
   margin: 0 auto;
 }
 
+/* 사진을 가져오는 class */
+.sprite--ico {
+  background-image: url(./img/naver_sprite.png);
+  background-size: 28.75rem 28.5625rem;
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+}
+
 .box__style {
   border: 0.0625rem solid #e3e5e8;
   border-radius: 0.625rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,12 +1,157 @@
-.header--hambuger {
-  background-image: url(./img/naver_sprite.png);
-  background-size: 460px 457px;
-  background-position: 0px -318px;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
+/* header 영역 */
+/* header top 영역 */
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.625rem 0;
 }
 
+.left__top,
+.right__top {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.header--hambuger {
+  background-position: -19.4375rem -9.4375rem;
+}
+
+.header--npay {
+  background-position: 0 -19.875rem;
+}
+
+.header--notice {
+  background-position: -19.4375rem -13.5625rem;
+}
+
+.header--shopping {
+  background-position: -4.125rem -19.875rem;
+}
+
+/* header search 영역 */
+.header__search {
+  border: 0.0625rem solid #03c75a;
+  border-radius: 30px;
+  width: 55%;
+  margin: 0 auto;
+  padding: 16px 30px;
+}
+
+.header__search > div {
+  gap: 15px;
+}
+
+#main__search {
+  border: 0;
+  width: 300px;
+  font-size: 22px;
+  font-weight: 500px;
+  font-weight: bold;
+}
+
+#main__search::placeholder {
+  opacity: 0;
+}
+
+#main__search:focus {
+  outline: 0;
+}
+
+#main__search:focus::placeholder {
+  outline: 0;
+  opacity: 1;
+  color: #e7e7e7;
+  font-weight: 400;
+}
+
+.search--logo {
+  background-position: -3.125rem -26rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.search--keyboard {
+  background-position: -17.0625rem -17.4375rem;
+  width: 1.5rem;
+  height: 0.875rem;
+}
+.search--underarrow {
+  background-position: -22.1875rem -2.8125rem;
+  width: 0.625rem;
+  height: 0.375rem;
+}
+.search--magnifier {
+  background-position: -21.5rem -5.25rem;
+  width: 25px;
+  height: 25px;
+}
+
+/* header quicknav 영역 */
+.header__quicknav {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.quicknav--common {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  border-radius: 35%;
+}
+
+.header__quicknav > a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header__quicknav > a > :first-child {
+  margin-bottom: 5px;
+}
+
+.header__quicknav > a > :first-child:hover {
+  box-shadow:
+    1px 2px 3px 1px rgba(225, 225, 225, 0.452),
+    -1px 2px 3px 1px rgb(225, 225, 225, 0.452);
+}
+
+.header__quicknav > a {
+  margin: 10px 0;
+}
+
+.quicknav--mail {
+  background-position: -205px -219px;
+}
+
+.quicknav--cafe {
+  background-position: -41px -219px;
+}
+
+.quicknav--blog {
+  background-position: 0px -219px;
+}
+.quicknav--store {
+  background-position: -41px -260px;
+}
+.quicknav--news {
+  background-position: -270px -205px;
+}
+.quicknav--money {
+  background-position: -123px -260px;
+}
+.quicknav--house {
+  background-position: 0px -260px;
+}
+.quicknav--map {
+  background-position: -270px 0px;
+}
+.quicknav--webtoon {
+  background-position: -164px -260px;
+}
+.quicknav--zzz {
+  background-position: -398px -109px;
+}
+
+/* containor 영역 */
 .containor {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./18_naver_form.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div>
+        <div class="border--bottom flex">
+          <input type="text" placeholder="아이디" />
+          <div>@naver.com</div>
+        </div>
+        <div class="border--bottom">
+          <input type="text" placeholder="비밀번호" />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)"
+          />
+        </div>
+      </div>
+      <div>
+        <div class="border--bottom">
+          <input type="text" placeholder="이름" />
+        </div>
+        <div class="border--bottom">
+          <input type="text" placeholder="생년월일 8자리" />
+        </div>
+        <div class="border--bottom">
+          <select id="telecom">
+            <option class="first--option">통신사 선택</option>
+            <option>SKT</option>
+            <option>KT</option>
+            <option>U+</option>
+            <option>알뜰폰</option>
+          </select>
+        </div>
+        <div class="input__radio flex">
+          <div class="left__radio flex">
+            <input type="radio" name="maleorfemale" id="male" />
+            <label for="male" class="border--left">남자</label>
+            <input type="radio" name="maleorfemale" id="female" />
+            <label for="female">여자</label>
+          </div>
+          <div class="flex">
+            <input type="radio" name="inorout" id="in" />
+            <label for="in" class="border--left">내국인</label>
+            <input type="radio" name="inorout" id="out" />
+            <label for="out">외국인</label>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <input type="text" placeholder="휴대전화번호" />
+        </div>
+      </div>
+      <div class="agree flex">
+        <div><input type="checkbox" /></div>
+        <div><span class="font--green">[필수] </span>인증 약관 전체동의</div>
+      </div>
+    </div>
+  </body>
+</html>
