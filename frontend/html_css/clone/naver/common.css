@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-/* 사진을 가져오는 class */
+/* 아이콘들을 가져오는 class */
 .sprite--ico {
   background-image: url(./img/naver_sprite.png);
   background-size: 28.75rem 28.5625rem;
@@ -27,4 +27,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.underline--none {
+  text-decoration: none;
 }
