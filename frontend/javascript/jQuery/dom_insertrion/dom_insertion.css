@@ -1,0 +1,19 @@
+body {
+    width: 30rem;
+    margin: 0;
+    padding: 0;
+}
+
+body > *{
+    width: 80%;
+}
+
+body * {
+    margin: 1rem auto;
+    
+    border: 1px solid black;
+    padding: 1rem 1rem;
+}
+.wapper {
+
+}
