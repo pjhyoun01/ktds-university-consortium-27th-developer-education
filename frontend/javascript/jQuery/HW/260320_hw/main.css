@@ -42,9 +42,31 @@ div > *,
 }
 
 .content > * {
-    margin: 0.5rem 1rem;
+    display: flex;
 }
-.content > *:hover {
+
+.content > div {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.content > div > * {
+    margin: 8px auto;
+}
+
+.content > div > *:first-child {
+    width: 75%;
+}
+.content > div > *:first-child:hover {
     background-color: #444;
     color: #ddd;
+}
+.content > div > *:last-child {
+    width: 10%;
+}
+
+.content > div > *:last-child:hover {
+    cursor: pointer;
+    background-color: lightpink;
+    color: red;
 }
